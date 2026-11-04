@@ -1,0 +1,907 @@
+.github/workflows/client-integration.yml
+  s_936e071f799642::t_c6035b1e85024e 67-68,73-74,76,83,109-111,113,122-125,129,138,173,202,237,301,333,387
+.github/workflows/gateway-ci.yml
+  s_936e071f799642::t_453e5a6c3375d1 68-70,79,113,130,135
+.github/workflows/helm-chart.yaml
+  s_936e071f799642::t_88ccf03421b748 47-51,55,58
+.github/workflows/rust-build-and-test.yml
+  s_936e071f799642::t_4b6f1cdd056da6 53-54,62,83
+.github/workflows/rust-docs-check.yml
+  s_936e071f799642::t_840d10713756c1 35-36,39
+.github/workflows/rust-license-and-format.yml
+  s_936e071f799642::t_ed33a025a82903 69-70,73,78
+AGENTS.md
+  s_936e071f799642::t_73c48f4e9f35b5 8,10,98-99,181,270-271,288,292-307,367,369,376,486,488,535-557
+LICENSE
+  s_936e071f799642::t_ea0f43e98f1840 407,414,424,431
+fluss-client/src/main/java/org/apache/fluss/client/admin/Admin.java
+  s_936e071f799642::t_6addaafaa0674b 58,94-97,248-269,928-961
+fluss-client/src/main/java/org/apache/fluss/client/admin/ClusterDescription.java
+  s_936e071f799642::t_2c43b817a425df 1-121
+fluss-client/src/main/java/org/apache/fluss/client/admin/FlussAdmin.java
+  s_936e071f799642::t_873eefde4043cb 37,39,41,73-74,81,108,111,169-177,189,192-207,217-222,355-379,408,412,1177-1210,1217-1223
+fluss-client/src/main/java/org/apache/fluss/client/admin/TabletServerDescription.java
+  s_936e071f799642::t_5b9c56725f664b 1-149
+fluss-client/src/main/java/org/apache/fluss/client/metadata/MetadataUpdater.java
+  s_936e071f799642::t_98c0c356aea6be 385-386,388,432-434
+fluss-client/src/main/java/org/apache/fluss/client/metrics/ScannerMetricGroup.java
+  s_936e071f799642::t_11e0f919d03885 79-80
+fluss-client/src/main/java/org/apache/fluss/client/metrics/WriterMetricGroup.java
+  s_936e071f799642::t_e43707f77453a4 90-91,95-96
+fluss-client/src/main/java/org/apache/fluss/client/tiering/FlussTableLakeSnapshotCommitter.java
+  s_936e071f799642::t_9bae3822fafa89 93-106
+fluss-client/src/main/java/org/apache/fluss/client/tiering/TieringCommitter.java
+  s_936e071f799642::t_ac4a56f838d8f2 25,304-320
+fluss-client/src/main/java/org/apache/fluss/client/tiering/TieringSplitGenerator.java
+  s_936e071f799642::t_214d39598e0c9f 62-75
+fluss-client/src/main/java/org/apache/fluss/client/utils/ClientRpcMessageUtils.java
+  s_936e071f799642::t_fb8f819cbd8018 20,25,37-38,43,67,110,113,123-125,150-151,1000-1046
+fluss-client/src/test/java/org/apache/fluss/client/admin/ClientToServerITCaseBase.java
+  s_936e071f799642::t_cedb1df5332b96 22,26,33,47,68,247-263
+fluss-client/src/test/java/org/apache/fluss/client/admin/ClusterDescriptionTest.java
+  s_936e071f799642::t_05d876f61b252f 1-140
+fluss-client/src/test/java/org/apache/fluss/client/admin/CoordinatorFailoverAdminITCase.java
+  s_936e071f799642::t_dc27f2a1854513 1-287
+fluss-client/src/test/java/org/apache/fluss/client/admin/FlussAdmin2ITCase.java
+  s_936e071f799642::t_e19648c251c235 22-24,30,39-40,42-45,52,56,179-286,300-305
+fluss-client/src/test/java/org/apache/fluss/client/admin/FlussAdminITCase.java
+  s_936e071f799642::t_0c43d5255db9a4 87-89,97-98,137,1172-1202,1213-1214,1223-1226,1230-1232,1236-1238,1243-1245,1253-1254,2374-2378,2398-2399,2417-2418,2437-2447
+fluss-client/src/test/java/org/apache/fluss/client/admin/FlussAdminTest.java
+  s_936e071f799642::t_6f51436d630704 1-184
+fluss-client/src/test/java/org/apache/fluss/client/metadata/MetadataUpdaterTest.java
+  s_936e071f799642::t_d2aeb4dcbd163f 21,25,37,45,85-147
+fluss-client/src/test/java/org/apache/fluss/client/security/acl/FlussAuthorizationITCase.java
+  s_936e071f799642::t_0ec79a280fa04a 56,794-826
+fluss-client/src/test/java/org/apache/fluss/client/table/scanner/log/RemoteLogDownloaderTest.java
+  s_936e071f799642::t_bb893f76ab0446 96-97,110-111,117-123,127,132-136,139-141,143,145-157,160-162,164,168-170,173-175
+fluss-client/src/test/java/org/apache/fluss/client/utils/TestingRpcClient.java
+  s_936e071f799642::t_71548286a9f1cc 1-84
+fluss-common/src/main/java/org/apache/fluss/cluster/ServerNode.java
+  s_936e071f799642::t_f4a9f062e67da6 21,43-44,54-63,69,113-117,162-163
+fluss-common/src/main/java/org/apache/fluss/config/ConfigOptions.java
+  s_936e071f799642::t_736633c9cfcd26 1281-1286,1293-1298,1305-1312,2229-2230,2237-2238
+fluss-common/src/main/java/org/apache/fluss/config/ConfigurationUtils.java
+  s_936e071f799642::t_83e1a0b6ff6d18 54
+fluss-common/src/main/java/org/apache/fluss/exception/NotCoordinatorLeaderException.java
+  s_936e071f799642::t_9ea0d579ea084a 21-24,28
+fluss-common/src/main/java/org/apache/fluss/lake/lakestorage/LakeCatalog.java
+  s_936e071f799642::t_14738109733c7c 31,41-65,141-149
+fluss-common/src/main/java/org/apache/fluss/lake/lakestorage/LakeStoragePluginSetUp.java
+  s_936e071f799642::t_7925e954b9be71 20,26,43,47-58,62-65,72-85
+fluss-common/src/main/java/org/apache/fluss/lake/lakestorage/PluginLakeStorageWrapper.java
+  s_936e071f799642::t_7ae5f53389713a 35,81-96
+fluss-common/src/main/java/org/apache/fluss/metadata/AggFunctionType.java
+  s_936e071f799642::t_6b1595506737fa 61-64,102-104,116-117,155,157-158,215-226
+fluss-common/src/main/java/org/apache/fluss/metadata/AggFunctions.java
+  s_936e071f799642::t_4882a6a4a5a2b7 137-138,142-143,327-377
+fluss-common/src/main/java/org/apache/fluss/metadata/KafkaTableSchema.java
+  s_936e071f799642::t_891ebf0cb55b47 45-46,63-74,183,188-190,212,214,226-227,348-361,363,409-410
+fluss-common/src/main/java/org/apache/fluss/metadata/LakeTableUtil.java
+  s_936e071f799642::t_2f4796536b418f 24-25,46-47,54-58,60-65
+fluss-common/src/main/java/org/apache/fluss/metrics/DescriptiveStatisticsHistogram.java
+  s_936e071f799642::t_21be0d139b6529 20-23,26-28,35-37,41-57,78-80,85-88,90-92,97,109-121
+fluss-common/src/main/java/org/apache/fluss/metrics/MetricNames.java
+  s_936e071f799642::t_72d4879fdf404c 193-201,204-211,214-221,233-241,416-419
+fluss-common/src/main/java/org/apache/fluss/row/AbstractBinaryWriter.java
+  s_936e071f799642::t_c0f7c426f46665 42-47,136,150,158,168,180,190,202
+fluss-common/src/main/java/org/apache/fluss/row/TimestampNtz.java
+  s_936e071f799642::t_d5c4a53b5b287c 140-141
+fluss-common/src/main/java/org/apache/fluss/row/array/BinaryArraySplicer.java
+  s_936e071f799642::t_a316a2a7533fe0 1-421
+fluss-common/src/main/java/org/apache/fluss/row/arrow/vectors/ArrowTimestampLtzColumnVector.java
+  s_936e071f799642::t_392ada58d05594 60-61,64-65
+fluss-common/src/main/java/org/apache/fluss/row/arrow/vectors/ArrowTimestampNtzColumnVector.java
+  s_936e071f799642::t_e843e69023f2a9 59-60,63-64
+fluss-common/src/main/java/org/apache/fluss/row/arrow/writers/ArrowTimestampLtzWriter.java
+  s_936e071f799642::t_79ad21a5166ff4 30-31,69-70,78-79
+fluss-common/src/main/java/org/apache/fluss/row/arrow/writers/ArrowTimestampNtzWriter.java
+  s_936e071f799642::t_3ec8940cf99154 30-31,69,77
+fluss-common/src/main/java/org/apache/fluss/security/auth/sasl/authenticator/SaslServerAuthenticator.java
+  s_936e071f799642::t_b959c7aa206efc 49,64,107,109-110,115,117-118,120-122,161-177
+fluss-common/src/main/java/org/apache/fluss/security/auth/sasl/jaas/LoginManager.java
+  s_936e071f799642::t_8ee38a1c67591b 47,72-73,78,96,103,123-127
+fluss-common/src/main/java/org/apache/fluss/security/auth/sasl/jaas/SaslServerFactory.java
+  s_936e071f799642::t_3388181f7d7857 20,55-56,58-63
+fluss-common/src/main/java/org/apache/fluss/security/auth/sasl/plain/PlainSaslServerConfigManager.java
+  s_936e071f799642::t_8d7438ca905248 1-294
+fluss-common/src/main/java/org/apache/fluss/types/DataTypeChecks.java
+  s_936e071f799642::t_44f410930be8e1 65-78,236-291
+fluss-common/src/main/java/org/apache/fluss/utils/DateTimeUtils.java
+  s_936e071f799642::t_827a8f0076583c 74-102
+fluss-common/src/test/java/org/apache/fluss/cluster/ServerNodeTest.java
+  s_936e071f799642::t_6aedd6de60d048 20-21,53-75
+fluss-common/src/test/java/org/apache/fluss/config/ConfigurationTest.java
+  s_936e071f799642::t_cb965d2e33bece 515-518
+fluss-common/src/test/java/org/apache/fluss/fs/TestFileSystem.java
+  s_936e071f799642::t_b19c7448fdb143 48-50,79-83,87-89
+fluss-common/src/test/java/org/apache/fluss/lake/lakestorage/LakeStoragePluginSetUpTest.java
+  s_936e071f799642::t_16400b26bdabab 1-204
+fluss-common/src/test/java/org/apache/fluss/lake/lakestorage/LakeStorageTest.java
+  s_936e071f799642::t_b092e63af9a957 26,31,41,51-54,124-128,231-240
+fluss-common/src/test/java/org/apache/fluss/lake/lakestorage/TestingLakeCatalogContext.java
+  s_936e071f799642::t_6aae8eda05de65 21,29,36-42,45,52-57,73-79
+fluss-common/src/test/java/org/apache/fluss/metadata/KafkaTableSchemaTest.java
+  s_936e071f799642::t_82a1d7fa661041 104,399,401-402,417,426,493-521,553,557-559
+fluss-common/src/test/java/org/apache/fluss/metadata/LakeTableUtilTest.java
+  s_936e071f799642::t_17b4dc1b844fb8 56-66
+fluss-common/src/test/java/org/apache/fluss/metrics/DescriptiveStatisticsHistogramTest.java
+  s_936e071f799642::t_aa95eab10f7b80 20-21,25-26,28,58-99
+fluss-common/src/test/java/org/apache/fluss/metrics/TestingExpiringHistogram.java
+  s_936e071f799642::t_262f97de924ef7 1-31
+fluss-common/src/test/java/org/apache/fluss/row/TimestampNtzTest.java
+  s_936e071f799642::t_18746ae7091ed9 22,24,51-73
+fluss-common/src/test/java/org/apache/fluss/row/array/BinaryArraySplicerTest.java
+  s_936e071f799642::t_880e7a28eb4c2b 1-433
+fluss-common/src/test/java/org/apache/fluss/row/arrow/ArrowTimestampWriterTest.java
+  s_936e071f799642::t_fdb6b719d156c6 1-153
+fluss-common/src/test/java/org/apache/fluss/security/auth/sasl/jaas/LoginManagerTest.java
+  s_936e071f799642::t_2eb3c735f0ed92 99-100,103-105
+fluss-common/src/test/java/org/apache/fluss/security/auth/sasl/plain/PlainSaslServerConfigManagerTest.java
+  s_936e071f799642::t_d667b89837806a 1-129
+fluss-common/src/test/java/org/apache/fluss/security/auth/sasl/plain/PlainSaslServerTest.java
+  s_936e071f799642::t_ff2cb61de774b9 30,35,83-128
+fluss-common/src/test/java/org/apache/fluss/types/DataTypeChecksTest.java
+  s_936e071f799642::t_0f4845cad81281 21-23,27,29,37,42-175,314-332
+fluss-common/src/test/resources/META-INF/services/org.apache.fluss.lake.lakestorage.LakeStoragePlugin
+  s_936e071f799642::t_30829fc7484ab3 1-20
+fluss-dist/pom.xml
+  s_936e071f799642::t_4aa9b4e6717122 42-48
+fluss-dist/src/main/assemblies/bin.xml
+  s_936e071f799642::t_f6c8c111dc3377 74-80
+fluss-dist/src/main/resources/bin/fluss-daemon.sh
+  s_936e071f799642::t_eecff4d208f6be 97
+fluss-filesystems/fluss-fs-cos/pom.xml
+  s_936e071f799642::t_3679d96233430a 31
+fluss-filesystems/fluss-fs-gs/src/main/java/org/apache/fluss/fs/gs/GSFileSystem.java
+  s_936e071f799642::t_db2d2e99148a06 21,34,47,51-52
+fluss-filesystems/fluss-fs-gs/src/main/java/org/apache/fluss/fs/gs/GSFileSystemPlugin.java
+  s_936e071f799642::t_76192294bcfaeb 24,27,33-38,48-52,61-67,98-122
+fluss-filesystems/fluss-fs-gs/src/main/java/org/apache/fluss/fs/gs/token/GSAccessTokenProvider.java
+  s_936e071f799642::t_eb675a82259296 1-67
+fluss-filesystems/fluss-fs-gs/src/main/java/org/apache/fluss/fs/gs/token/GSSecurityTokenProvider.java
+  s_936e071f799642::t_31a095c80073e7 1-195
+fluss-filesystems/fluss-fs-gs/src/main/java/org/apache/fluss/fs/gs/token/GSSecurityTokenReceiver.java
+  s_936e071f799642::t_509e03acf44e5d 1-80
+fluss-filesystems/fluss-fs-gs/src/main/resources/META-INF/services/org.apache.fluss.fs.token.SecurityTokenReceiver
+  s_936e071f799642::t_92e95dccfceab2 1-17
+fluss-filesystems/fluss-fs-gs/src/test/java/org/apache/fluss/fs/gs/AuthServerHandler.java
+  s_936e071f799642::t_1e22b2ff0f8bc1 24,30,38-40,42,52-57,60-72,80-81,85-87,89-91,99-117,119-120,123-161,163,191
+fluss-filesystems/fluss-fs-gs/src/test/java/org/apache/fluss/fs/gs/GSFileSystemBehaviorITCase.java
+  s_936e071f799642::t_6d961275d6d0cb 32,41,46,50,66,68,79-80,116
+fluss-filesystems/fluss-fs-gs/src/test/java/org/apache/fluss/fs/gs/GSSecurityTokenITCase.java
+  s_936e071f799642::t_748b143d29ebf1 1-341
+fluss-filesystems/fluss-fs-gs/src/test/java/org/apache/fluss/fs/gs/GSWithTokenFileSystemITCase.java
+  s_936e071f799642::t_721fc688169e96 1-141
+fluss-filesystems/fluss-fs-gs/src/test/java/org/apache/fluss/fs/gs/MockAuthServer.java
+  s_936e071f799642::t_b7f617250046c0 29,36-40,50-62,67-97,114-121,125-127
+fluss-filesystems/fluss-fs-gs/src/test/java/org/apache/fluss/fs/gs/token/GSSecurityTokenProviderTest.java
+  s_936e071f799642::t_1c93aed57caf19 1-86
+fluss-filesystems/fluss-fs-gs/src/test/java/org/apache/fluss/fs/gs/token/GSSecurityTokenReceiverTest.java
+  s_936e071f799642::t_e43c95d390efec 1-94
+fluss-filesystems/fluss-fs-hadoop-shaded/pom.xml
+  s_936e071f799642::t_61ae5f6a828900 31
+fluss-flink/fluss-flink-1.18/src/test/java/org/apache/fluss/flink/source/Flink118FlussSourceTestSuiteITCase.java
+  s_936e071f799642::t_aee92e4fd7cc35 1-44
+fluss-flink/fluss-flink-1.19/src/test/java/org/apache/fluss/flink/source/Flink119FlussSourceTestSuiteITCase.java
+  s_936e071f799642::t_90924325ab16df 1-44
+fluss-flink/fluss-flink-1.20/src/test/java/org/apache/fluss/flink/catalog/Flink120BucketsPlanCacheITCase.java
+  s_936e071f799642::t_aaf7c6c1c576cd 1-193
+fluss-flink/fluss-flink-1.20/src/test/java/org/apache/fluss/flink/source/Flink120FlussSourceTestSuiteITCase.java
+  s_936e071f799642::t_ba9ba7d19dcff4 1-21
+fluss-flink/fluss-flink-2.2/pom.xml
+  s_936e071f799642::t_5aebee953d4777 30
+fluss-flink/fluss-flink-2.2/src/test/java/org/apache/fluss/flink/source/Flink22FlussSourceTestSuiteITCase.java
+  s_936e071f799642::t_e05520e46896b6 1-44
+fluss-flink/fluss-flink-2.3/pom.xml
+  s_936e071f799642::t_796ad7ed8c60dd 30
+fluss-flink/fluss-flink-2.3/src/test/java/org/apache/fluss/flink/source/Flink23FlussSourceTestSuiteITCase.java
+  s_936e071f799642::t_3002938fce3c67 1-44
+fluss-flink/fluss-flink-common/src/main/java/org/apache/fluss/flink/catalog/FlinkCatalog.java
+  s_936e071f799642::t_240552a53b7020 41,112,144-151,229,445-446,453-455,463-467,481-487,567-580,583,598,661,734,798,852,1004-1005,1010-1012,1017-1018,1023,1025-1042,1057-1065,1090-1096,1328-1374
+fluss-flink/fluss-flink-common/src/main/java/org/apache/fluss/flink/catalog/FlinkTableFactory.java
+  s_936e071f799642::t_25e10f50f66ca0 29,68-69,110-113,187-191,282,285,472-485
+fluss-flink/fluss-flink-common/src/main/java/org/apache/fluss/flink/procedure/EnableFlussOnLakeTableProcedure.java
+  s_936e071f799642::t_393e7d2a179743 1-219
+fluss-flink/fluss-flink-common/src/main/java/org/apache/fluss/flink/procedure/FlussProcedureContext.java
+  s_936e071f799642::t_b411153d6f746b 1-77
+fluss-flink/fluss-flink-common/src/main/java/org/apache/fluss/flink/procedure/ListServerTagProcedure.java
+  s_936e071f799642::t_05853a7e0cc282 1-53
+fluss-flink/fluss-flink-common/src/main/java/org/apache/fluss/flink/procedure/ProcedureBase.java
+  s_936e071f799642::t_ddd23c954c6685 27,29-31
+fluss-flink/fluss-flink-common/src/main/java/org/apache/fluss/flink/procedure/ProcedureManager.java
+  s_936e071f799642::t_b924d011f8946b 43-44,52,83,88-90
+fluss-flink/fluss-flink-common/src/main/java/org/apache/fluss/flink/source/BucketsFlinkTableSource.java
+  s_936e071f799642::t_9630c3a74ccda6 1-67
+fluss-flink/fluss-flink-common/src/main/java/org/apache/fluss/flink/source/BucketsSource.java
+  s_936e071f799642::t_e88993d52ceb88 1-390
+fluss-flink/fluss-flink-common/src/main/java/org/apache/fluss/flink/tiering/source/enumerator/TieringSourceEnumerator.java
+  s_936e071f799642::t_cd8897b133c917 34,53,118,194-197,628-632,636-656,658-662
+fluss-flink/fluss-flink-common/src/main/java/org/apache/fluss/flink/tiering/source/metrics/TieringMetrics.java
+  s_936e071f799642::t_731882de8fdba1 24,28-29,32,34-36,45-46,73-87
+fluss-flink/fluss-flink-common/src/test/java/org/apache/fluss/flink/catalog/FlinkCatalogITCase.java
+  s_936e071f799642::t_b2a8bee5f3fa3d 53,82,1343-1459
+fluss-flink/fluss-flink-common/src/test/java/org/apache/fluss/flink/catalog/FlinkCatalogTest.java
+  s_936e071f799642::t_5e98e8a3304c27 386-391,401-406
+fluss-flink/fluss-flink-common/src/test/java/org/apache/fluss/flink/catalog/FlinkTableFactoryTest.java
+  s_936e071f799642::t_2f3d27a8ed6a73 26,89-91,94-95,291-299,303,323-343,460-478,533-537,542
+fluss-flink/fluss-flink-common/src/test/java/org/apache/fluss/flink/procedure/EnableFlussOnLakeTableProcedureTest.java
+  s_936e071f799642::t_fa6bd33cea4920 1-66
+fluss-flink/fluss-flink-common/src/test/java/org/apache/fluss/flink/procedure/FlinkProcedureITCase.java
+  s_936e071f799642::t_c537ecab8371d3 156,161-162,646-688
+fluss-flink/fluss-flink-common/src/test/java/org/apache/fluss/flink/sink/FlinkTableSinkITCase.java
+  s_936e071f799642::t_90757b388ec3bb 1695-1728
+fluss-flink/fluss-flink-common/src/test/java/org/apache/fluss/flink/sink/testutils/TestAdminAdapter.java
+  s_936e071f799642::t_ffd0aafd175b9a 21,147-152,364-368
+fluss-flink/fluss-flink-common/src/test/java/org/apache/fluss/flink/source/BucketsFlinkTableSourceTest.java
+  s_936e071f799642::t_94079c9b0b821f 1-148
+fluss-flink/fluss-flink-common/src/test/java/org/apache/fluss/flink/source/FlussSourceTestSuiteITCase.java
+  s_936e071f799642::t_234814553b73c5 1-62
+fluss-flink/fluss-flink-common/src/test/java/org/apache/fluss/flink/source/testutils/FlussSourceExternalContext.java
+  s_936e071f799642::t_cb35febca34a20 1-226
+fluss-flink/fluss-flink-common/src/test/java/org/apache/fluss/flink/tiering/committer/TieringCommitOperatorTest.java
+  s_936e071f799642::t_0ceb711b88abd7 36,432-488
+fluss-flink/fluss-flink-common/src/test/java/org/apache/fluss/flink/tiering/source/enumerator/TieringSourceEnumeratorSchedulingTest.java
+  s_936e071f799642::t_c1a1e4421fa01a 20,27,34-35,42-45,47-48,51,63,65,67,76,101,107,196,214,216,222,247,256-360,371,382-386,406-416,464-469,485-502,505-506,514,516,518-523
+fluss-flink/fluss-flink-common/src/test/java/org/apache/fluss/flink/utils/FlinkAggFunctionParserTest.java
+  s_936e071f799642::t_82a12489e38b8c 171-184
+fluss-flink/fluss-flink-tiering/pom.xml
+  s_936e071f799642::t_833c6ecf8470e6 33
+fluss-jmh/pom.xml
+  s_936e071f799642::t_dae089f16d2c37 30
+fluss-kafka/pom.xml
+  s_936e071f799642::t_fbbfca4e7968b8 41-51,77-81,83-88,124-161
+fluss-kafka/src/main/java/org/apache/fluss/kafka/KafkaChannelInitializer.java
+  s_936e071f799642::t_f3e1a8640ac6e0 22,27-31,42,45,51,56,62-66,69,71-78
+fluss-kafka/src/main/java/org/apache/fluss/kafka/KafkaCommandDecoder.java
+  s_936e071f799642::t_58d0ed797a0f95 20-21,23,25-27,46-47,53,65,67,78-88,90,92-95,101,103-121,124,131-133,135,144-159,173-174,190-200,224-227,231-243,251-254,259-269,271,285-288,301,314
+fluss-kafka/src/main/java/org/apache/fluss/kafka/KafkaProtocolPlugin.java
+  s_936e071f799642::t_a9c0b8cec0504d 22-24,29-33,36-39,41-46,49-52,55-58,67-72,83-90,96,101-168,170
+fluss-kafka/src/main/java/org/apache/fluss/kafka/KafkaRequest.java
+  s_936e071f799642::t_9d7f0f53ff4863 20,23,53-54,61,63,70,79-80,123-132,161-170
+fluss-kafka/src/main/java/org/apache/fluss/kafka/KafkaRequestContext.java
+  s_936e071f799642::t_c4adb51efd68d2 21-22,41,44,100-114
+fluss-kafka/src/main/java/org/apache/fluss/kafka/KafkaRequestHandler.java
+  s_936e071f799642::t_efe57c041f0716 20-24,26-29,33,36,38,45-46,48-61,64-69,92-97
+fluss-kafka/src/main/java/org/apache/fluss/kafka/api/metadata/MetadataHandler.java
+  s_936e071f799642::t_cb7fb9236d81a2 1-216
+fluss-kafka/src/main/java/org/apache/fluss/kafka/api/produce/ProduceHandler.java
+  s_936e071f799642::t_cf566092a45c9f 1-348
+fluss-kafka/src/main/java/org/apache/fluss/kafka/api/sasl/SaslAuthenticateHandler.java
+  s_936e071f799642::t_7f42247529d2d3 1-102
+fluss-kafka/src/main/java/org/apache/fluss/kafka/api/sasl/SaslHandshakeHandler.java
+  s_936e071f799642::t_40d6199563b543 1-115
+fluss-kafka/src/main/java/org/apache/fluss/kafka/api/versions/ApiVersionsHandler.java
+  s_936e071f799642::t_1da049e3a75c38 68-74,83-85,95-98
+fluss-kafka/src/main/java/org/apache/fluss/kafka/backend/metadata/GatewayKafkaMetadataBackend.java
+  s_936e071f799642::t_63ba9b057c8813 1-233
+fluss-kafka/src/main/java/org/apache/fluss/kafka/backend/metadata/KafkaClusterMetadata.java
+  s_936e071f799642::t_c6a02182adf718 1-211
+fluss-kafka/src/main/java/org/apache/fluss/kafka/backend/metadata/KafkaMetadataBackend.java
+  s_936e071f799642::t_8b08e53eb32b7d 1-30
+fluss-kafka/src/main/java/org/apache/fluss/kafka/backend/metadata/KafkaMetadataQuery.java
+  s_936e071f799642::t_974783ff3de414 1-111
+fluss-kafka/src/main/java/org/apache/fluss/kafka/backend/produce/GatewayKafkaProduceBackend.java
+  s_936e071f799642::t_3acf6ba08b4216 1-257
+fluss-kafka/src/main/java/org/apache/fluss/kafka/backend/produce/KafkaProduceBackend.java
+  s_936e071f799642::t_fd4a1700866aef 1-47
+fluss-kafka/src/main/java/org/apache/fluss/kafka/backend/produce/KafkaProduceCommand.java
+  s_936e071f799642::t_fd99a2d3f9d373 1-273
+fluss-kafka/src/main/java/org/apache/fluss/kafka/backend/produce/KafkaProduceResult.java
+  s_936e071f799642::t_73ae2f293cf63d 1-111
+fluss-kafka/src/main/java/org/apache/fluss/kafka/error/KafkaErrorMapper.java
+  s_936e071f799642::t_28ce4c7d6894d4 22,38-75
+fluss-kafka/src/main/java/org/apache/fluss/kafka/format/BinaryKafkaFormatFactory.java
+  s_936e071f799642::t_ae1a3c7c64245a 1-50
+fluss-kafka/src/main/java/org/apache/fluss/kafka/format/KafkaDecodedValue.java
+  s_936e071f799642::t_7ca1439920e14d 1-80
+fluss-kafka/src/main/java/org/apache/fluss/kafka/format/KafkaFieldDecoder.java
+  s_936e071f799642::t_00895b2a458e6f 1-41
+fluss-kafka/src/main/java/org/apache/fluss/kafka/format/KafkaFormatFactory.java
+  s_936e071f799642::t_6111244f6d328e 1-33
+fluss-kafka/src/main/java/org/apache/fluss/kafka/format/KafkaFormatFactoryRegistry.java
+  s_936e071f799642::t_f35353f7239c13 1-60
+fluss-kafka/src/main/java/org/apache/fluss/kafka/format/StringKafkaFormatFactory.java
+  s_936e071f799642::t_178cf84b5260b0 1-63
+fluss-kafka/src/main/java/org/apache/fluss/kafka/format/json/JsonKafkaFieldDecoder.java
+  s_936e071f799642::t_30898fe3a1d77b 1-172
+fluss-kafka/src/main/java/org/apache/fluss/kafka/format/json/JsonKafkaFormatFactory.java
+  s_936e071f799642::t_53609e4b2a8029 1-39
+fluss-kafka/src/main/java/org/apache/fluss/kafka/format/json/JsonPath.java
+  s_936e071f799642::t_8709429eef85ae 1-97
+fluss-kafka/src/main/java/org/apache/fluss/kafka/format/json/JsonToFlussConverter.java
+  s_936e071f799642::t_0f1da7981ab5ad 1-40
+fluss-kafka/src/main/java/org/apache/fluss/kafka/format/json/JsonToFlussConverters.java
+  s_936e071f799642::t_a7be245666eb5b 1-540
+fluss-kafka/src/main/java/org/apache/fluss/kafka/mapping/KafkaTopicMapper.java
+  s_936e071f799642::t_9b6a2e9a2fc56c 38-39,109,115-126,130-131
+fluss-kafka/src/main/java/org/apache/fluss/kafka/security/KafkaSaslConnection.java
+  s_936e071f799642::t_0a066d28ff1c20 1-284
+fluss-kafka/src/main/java/org/apache/fluss/kafka/transcode/ArrowKafkaRecordTranscoder.java
+  s_936e071f799642::t_3607876bab4492 1-148
+fluss-kafka/src/main/java/org/apache/fluss/kafka/transcode/EncodedRecords.java
+  s_936e071f799642::t_0fb85b98319481 1-66
+fluss-kafka/src/main/java/org/apache/fluss/kafka/transcode/KafkaCompiledWritePlanCache.java
+  s_936e071f799642::t_f429d7e47cfdfe 1-106
+fluss-kafka/src/main/java/org/apache/fluss/kafka/transcode/KafkaRecordEncodingException.java
+  s_936e071f799642::t_5b3f8c64b6af7a 1-35
+fluss-kafka/src/main/java/org/apache/fluss/kafka/transcode/KafkaRecordTranscoder.java
+  s_936e071f799642::t_72d44148cbbb15 1-51
+fluss-kafka/src/main/java/org/apache/fluss/kafka/transcode/KafkaRowAssembler.java
+  s_936e071f799642::t_8db763c4bc5e9f 1-146
+fluss-kafka/src/main/java/org/apache/fluss/kafka/transcode/KafkaTopicWritePlan.java
+  s_936e071f799642::t_84947cf925db78 1-50
+fluss-kafka/src/main/resources/META-INF/NOTICE
+  s_936e071f799642::t_2a8d12a75ad150 1-9
+fluss-kafka/src/main/resources/META-INF/licenses/NOTICE.kafka-clients
+  s_936e071f799642::t_f65b4c9583ff1f 1-23
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaCommandDecoderTest.java
+  s_936e071f799642::t_a714559955bebf 20,47,50-51,54,63-64,74-75,102-132,137,166-170
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaJsonProduceITCase.java
+  s_936e071f799642::t_5bca4e8d0c2a8e 1-602
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaMetadataHandlerTest.java
+  s_936e071f799642::t_3fe83c52435c85 1-979
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaMetadataITCase.java
+  s_936e071f799642::t_2e11557de33cdd 1-504
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaProduceAppendITCase.java
+  s_936e071f799642::t_f1d742ed3b892b 1-624
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaProduceBufferLifecycleTest.java
+  s_936e071f799642::t_fadbaf7aeca391 1-303
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaProduceConcurrencyITCase.java
+  s_936e071f799642::t_6292ab0d227a2c 1-390
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaProduceProtocolTest.java
+  s_936e071f799642::t_7d58c7ba008b3c 1-961
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaProduceRegressionITCase.java
+  s_936e071f799642::t_e44870fa386838 1-725
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaProtocolPluginITCase.java
+  s_936e071f799642::t_002d3f304c2add 38,52
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaProtocolPluginTest.java
+  s_936e071f799642::t_6ddf144d747f02 22,24,32,34,40,48,54-55,58-65
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaRequestHandlerTest.java
+  s_936e071f799642::t_15fe47db177c67 20-21,46-47,61-75,80,94-97,165-168,257,260-261,295
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaRequestITCase.java
+  s_936e071f799642::t_45e195f24726f7 48,56,60,64-65,80,86,91,96-98,110,117,121,137-141,144,150
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaRequestTest.java
+  s_936e071f799642::t_ab2d0c5cdfa367 20-21,23,30-31,35,43-83,96
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaSaslConfigTest.java
+  s_936e071f799642::t_0abfbb9eff7d2c 1-78
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaSaslPlainAuthenticationITCase.java
+  s_936e071f799642::t_fd2cd3a2bfb47a 1-526
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaServerTestBase.java
+  s_936e071f799642::t_7a8415cb77ffb5 1-71
+fluss-kafka/src/test/java/org/apache/fluss/kafka/KafkaSocketTestUtils.java
+  s_936e071f799642::t_9496f8fd1e3d7c 1-77
+fluss-kafka/src/test/java/org/apache/fluss/kafka/TestingMetadataService.java
+  s_936e071f799642::t_26946186d260a2 1-33
+fluss-kafka/src/test/java/org/apache/fluss/kafka/TestingSaslAuthenticator.java
+  s_936e071f799642::t_2ee300ad7e0b4d 1-85
+fluss-kafka/src/test/java/org/apache/fluss/kafka/api/produce/ProduceCompressionErrorTest.java
+  s_936e071f799642::t_f0f7ad49ae64b5 1-75
+fluss-kafka/src/test/java/org/apache/fluss/kafka/api/versions/ApiVersionsHandlerTest.java
+  s_936e071f799642::t_b64821725733fb 20,22-25,29-31,40,42,55-67,82-88,101-103,107-115,119,121-149
+fluss-kafka/src/test/java/org/apache/fluss/kafka/backend/produce/GatewayKafkaProduceBackendTest.java
+  s_936e071f799642::t_2710836327a311 1-329
+fluss-kafka/src/test/java/org/apache/fluss/kafka/backend/produce/KafkaProduceCommandTest.java
+  s_936e071f799642::t_ba014d2c44c309 1-264
+fluss-kafka/src/test/java/org/apache/fluss/kafka/format/KafkaFormatFactoryRegistryTest.java
+  s_936e071f799642::t_cd69ab0c603bec 1-118
+fluss-kafka/src/test/java/org/apache/fluss/kafka/format/json/JsonKafkaFieldDecoderTest.java
+  s_936e071f799642::t_4686e0374544d6 1-251
+fluss-kafka/src/test/java/org/apache/fluss/kafka/format/json/JsonKafkaRescueTest.java
+  s_936e071f799642::t_ebb67f98c85885 1-253
+fluss-kafka/src/test/java/org/apache/fluss/kafka/format/json/JsonToFlussArrowTest.java
+  s_936e071f799642::t_03ef58015ad10f 1-158
+fluss-kafka/src/test/java/org/apache/fluss/kafka/format/json/JsonToFlussComplexConvertersTest.java
+  s_936e071f799642::t_e4c97f8c104ab8 1-245
+fluss-kafka/src/test/java/org/apache/fluss/kafka/format/json/JsonToFlussConvertersTest.java
+  s_936e071f799642::t_248a4697585d10 1-570
+fluss-kafka/src/test/java/org/apache/fluss/kafka/format/json/JsonToFlussFlinkCompatibilityTest.java
+  s_936e071f799642::t_6c9344a14d1d96 1-176
+fluss-kafka/src/test/java/org/apache/fluss/kafka/mapping/KafkaTopicMapperTest.java
+  s_936e071f799642::t_b479571a1db2c6 165-180
+fluss-kafka/src/test/java/org/apache/fluss/kafka/schema/KafkaTableMappingITCase.java
+  s_936e071f799642::t_b56d295560725d 47-48,55,67,238,267-268,280-281,292-293,338,348-349,479,482-496,518-521,523,527,538,550,577-599
+fluss-kafka/src/test/java/org/apache/fluss/kafka/security/KafkaSaslConnectionTest.java
+  s_936e071f799642::t_028da573cc125c 1-83
+fluss-kafka/src/test/java/org/apache/fluss/kafka/transcode/ArrowKafkaRecordTranscoderTest.java
+  s_936e071f799642::t_696ad62da719c3 1-786
+fluss-kafka/src/test/java/org/apache/fluss/kafka/transcode/KafkaCompiledWritePlanCacheTest.java
+  s_936e071f799642::t_dfa9145036ebb6 1-262
+fluss-lake/fluss-lake-iceberg-common/src/main/java/org/apache/fluss/lake/iceberg/IcebergLakeCatalog.java
+  s_936e071f799642::t_b60165c8bf47a0 30,64,105,176,321-359
+fluss-lake/fluss-lake-iceberg-common/src/main/java/org/apache/fluss/lake/iceberg/tiering/IcebergLakeTieringFactory.java
+  s_936e071f799642::t_b979988591d08a 61,79-80
+fluss-lake/fluss-lake-iceberg-common/src/main/java/org/apache/fluss/lake/iceberg/tiering/IcebergLakeWriter.java
+  s_936e071f799642::t_ed55c924783684 72
+fluss-lake/fluss-lake-iceberg-common/src/test/java/org/apache/fluss/lake/iceberg/IcebergLakeCatalogTest.java
+  s_936e071f799642::t_560e57327a3731 810-880
+fluss-lake/fluss-lake-iceberg-common/src/test/java/org/apache/fluss/lake/iceberg/flink/FlinkUnionReadPrimaryKeyTableITCase.java
+  s_936e071f799642::t_b56e1acef5a283 43-44,57,61-62,65,367-432
+fluss-lake/fluss-lake-iceberg-common/src/test/java/org/apache/fluss/lake/iceberg/tiering/IcebergTieringTest.java
+  s_936e071f799642::t_d1704dd7b4d8ee 54,377-433,538-560
+fluss-lake/fluss-lake-paimon/src/main/java/org/apache/fluss/lake/paimon/PaimonLakeCatalog.java
+  s_936e071f799642::t_380145fd50ae31 24,34,47,51-52,57-58,61,107-135,143,148,312,332,334-340,355-432
+fluss-lake/fluss-lake-paimon/src/main/java/org/apache/fluss/lake/paimon/source/PaimonLakeSource.java
+  s_936e071f799642::t_39dcf9bf34fc3c 22-24,53,59-68,72,102,119,124-125,143-145,147
+fluss-lake/fluss-lake-paimon/src/main/java/org/apache/fluss/lake/paimon/source/PaimonSplitPlanner.java
+  s_936e071f799642::t_e0b40582c93b73 22-23,49,58-63,72-73,98-104
+fluss-lake/fluss-lake-paimon/src/main/java/org/apache/fluss/lake/paimon/source/PaimonTableLoader.java
+  s_936e071f799642::t_54546a5dc1b583 1-113
+fluss-lake/fluss-lake-paimon/src/main/java/org/apache/fluss/lake/paimon/utils/PaimonConversions.java
+  s_936e071f799642::t_62c3205d6db47f 21-22,37,46-48,55-56,58-59,305-348,444-595
+fluss-lake/fluss-lake-paimon/src/main/java/org/apache/fluss/lake/paimon/utils/PaimonTableValidation.java
+  s_936e071f799642::t_4712e39c0b5a8d 24-25,28,30-31,33,35-36,42,52-55,168-169,171-176,182,190-197,200-251
+fluss-lake/fluss-lake-paimon/src/test/java/org/apache/fluss/lake/paimon/CreateTableFromLakeITCase.java
+  s_936e071f799642::t_2f662d1536500b 1-335
+fluss-lake/fluss-lake-paimon/src/test/java/org/apache/fluss/lake/paimon/EnableFlussOnLakeTableProcedureITCase.java
+  s_936e071f799642::t_720f4fb0a5460c 1-587
+fluss-lake/fluss-lake-paimon/src/test/java/org/apache/fluss/lake/paimon/LakeEnabledTableCreateITCase.java
+  s_936e071f799642::t_f4c65461b1290f 771-772,774-780,783-786
+fluss-lake/fluss-lake-paimon/src/test/java/org/apache/fluss/lake/paimon/PaimonLakeCatalogTest.java
+  s_936e071f799642::t_d7e9f51fc4be53 24,33,35,39-42,52,92-292,464,473,475-483,496-639,977-991,1015-1020
+fluss-lake/fluss-lake-paimon/src/test/java/org/apache/fluss/lake/paimon/PaimonTableToFlussTableDescriptorTest.java
+  s_936e071f799642::t_d3439ca6029c83 1-341
+fluss-lake/fluss-lake-paimon/src/test/java/org/apache/fluss/lake/paimon/source/PaimonLakeSourceTest.java
+  s_936e071f799642::t_63ea834eaf7ba8 38,47-48,51-52,57,59,63,99-102,138-141,201-276
+fluss-lake/fluss-lake-paimon/src/test/java/org/apache/fluss/lake/paimon/source/PaimonSplitPlannerTest.java
+  s_936e071f799642::t_3e0c7ba3cdcde7 25,29,34,40-41,44,48-49,51,55-64,132-161
+fluss-metrics/fluss-metrics-influxdb/src/main/java/org/apache/fluss/metrics/influxdb/InfluxdbPointProducer.java
+  s_936e071f799642::t_44577cf2c74226 94-98
+fluss-metrics/fluss-metrics-influxdb/src/test/java/org/apache/fluss/metrics/influxdb/InfluxdbPointProducerTest.java
+  s_936e071f799642::t_d3400a4b7a29d4 148,158-174
+fluss-metrics/fluss-metrics-jmx/src/main/java/org/apache/fluss/metrics/jmx/JMXReporter.java
+  s_936e071f799642::t_d83ac47bc262e5 308-310,345-349
+fluss-metrics/fluss-metrics-jmx/src/test/java/org/apache/fluss/metrics/jmx/JMXReporterTest.java
+  s_936e071f799642::t_7c43c653ef0b27 226,229,248-251
+fluss-metrics/fluss-metrics-prometheus/src/main/java/org/apache/fluss/metrics/prometheus/AbstractPrometheusReporter.java
+  s_936e071f799642::t_e60441d9ab2de9 377-379,386
+fluss-metrics/fluss-metrics-prometheus/src/test/java/org/apache/fluss/metrics/prometheus/PrometheusReporterTest.java
+  s_936e071f799642::t_e3125e8318106c 26,32,41,151-203
+fluss-rpc/src/main/java/org/apache/fluss/rpc/RetryableGatewayClientProxy.java
+  s_936e071f799642::t_6eb825699434d4 34,72-73,84-88,92-93,114-142,152-156,188-194,199,201,208-211
+fluss-rpc/src/main/java/org/apache/fluss/rpc/RpcClient.java
+  s_936e071f799642::t_a6d687e4290c86 56-68,71-73,78-79,81-82,84
+fluss-rpc/src/main/java/org/apache/fluss/rpc/gateway/AdminGateway.java
+  s_936e071f799642::t_71a43e3f9f0f09 40-41,46-47,115-123,190-192
+fluss-rpc/src/main/java/org/apache/fluss/rpc/netty/client/NettyClient.java
+  s_936e071f799642::t_36f57ca7c22d67 44,70-71,73,124-147,150-151,157-164,166-171,175-176,178-179,182,184-187,203,218,220,228-231,236-299
+fluss-rpc/src/main/java/org/apache/fluss/rpc/netty/client/ServerConnection.java
+  s_936e071f799642::t_a697e4e52b6e6d 120-122
+fluss-rpc/src/main/java/org/apache/fluss/rpc/netty/server/FlussProtocolPlugin.java
+  s_936e071f799642::t_08496c9249c394 25,27-28,34,36,40,51-54,70-79,99,101-103,111-112,116-117,119-127,132-133,135,137-144,148,150-152,155-158,161-163
+fluss-rpc/src/main/java/org/apache/fluss/rpc/netty/server/NettyServer.java
+  s_936e071f799642::t_6e965f70eb48d1 20,26,41,69-72,80-83,88,91-92,102-118,122-155,161,163,167,169,181-184,186-193,214-218,233,359,363-365,370-379
+fluss-rpc/src/main/java/org/apache/fluss/rpc/netty/server/NettyServerHandler.java
+  s_936e071f799642::t_1b60ae73d38e7e 192-199
+fluss-rpc/src/main/java/org/apache/fluss/rpc/netty/server/RequestHandler.java
+  s_936e071f799642::t_e7b8255fe8bbac 27,34-37
+fluss-rpc/src/main/java/org/apache/fluss/rpc/netty/server/RequestProcessorPool.java
+  s_936e071f799642::t_69260886ccee4d 37-38,47,50,56-59,62,69-71,74,93,96,103-104,108-109,114-122,126
+fluss-rpc/src/main/java/org/apache/fluss/rpc/netty/server/RequestsMetrics.java
+  s_936e071f799642::t_5732128c09a361 156-157,161-162,166-167,171-172,176-177
+fluss-rpc/src/main/java/org/apache/fluss/rpc/netty/server/ServerChannelInitializer.java
+  s_936e071f799642::t_94efc04714836a 21,27,33-34,51-54,64-66,75-76,82-93
+fluss-rpc/src/main/java/org/apache/fluss/rpc/netty/server/ServerRpcResources.java
+  s_936e071f799642::t_d9361c523ecbf2 1-80
+fluss-rpc/src/main/java/org/apache/fluss/rpc/netty/server/TlsFileRegionHandler.java
+  s_936e071f799642::t_581d726c741801 1-156
+fluss-rpc/src/main/java/org/apache/fluss/rpc/protocol/ApiKeys.java
+  s_936e071f799642::t_5d31439b580f9c 126-128
+fluss-rpc/src/main/proto/FlussApi.proto
+  s_936e071f799642::t_9d11f1e5259505 132-150,256-267,971-979,1002,1009
+fluss-rpc/src/test/java/org/apache/fluss/rpc/RetryableGatewayClientProxyTest.java
+  s_936e071f799642::t_7f07e579fbd908 21,152-212
+fluss-rpc/src/test/java/org/apache/fluss/rpc/netty/client/NettyClientTest.java
+  s_936e071f799642::t_fc7f903e399b4b 26-27,31,34,37,44-50,57-58,61-62,71,73-74,85,96-97,150,156,159,161,164,166,178,180-184,202,204-545,566,581,583,588,599-601,604,614-615,626,637-727,735,737,739,748,752-788
+fluss-rpc/src/test/java/org/apache/fluss/rpc/netty/server/FlussProtocolPluginTest.java
+  s_936e071f799642::t_c177e40ff0d866 24,27,29,32,34-35,82-128
+fluss-rpc/src/test/java/org/apache/fluss/rpc/netty/server/NettyServerListenerIsolationTest.java
+  s_936e071f799642::t_de5e212ad1f8e4 1-382
+fluss-rpc/src/test/java/org/apache/fluss/rpc/netty/server/NettyServerShutdownTest.java
+  s_936e071f799642::t_3582a40fc7a3b4 1-172
+fluss-rpc/src/test/java/org/apache/fluss/rpc/netty/server/NettyServerTlsTest.java
+  s_936e071f799642::t_6badc0e0e907e6 1-222
+fluss-rpc/src/test/java/org/apache/fluss/rpc/netty/server/TlsFileRegionHandlerTest.java
+  s_936e071f799642::t_602d3988eb8222 1-216
+fluss-rpc/src/test/java/org/apache/fluss/rpc/protocol/ApiManagerTest.java
+  s_936e071f799642::t_93dc7d068043fa 53-54
+fluss-rust/README.md
+  s_936e071f799642::t_7223a5b26e4424 265
+fluss-rust/bindings/cpp/include/fluss.hpp
+  s_936e071f799642::t_7d618e75ad206f 1404-1405,1422-1423,1430-1431,1442,1648-1649,1656-1657
+fluss-rust/bindings/cpp/src/ffi_converter.hpp
+  s_936e071f799642::t_615cc6f9e7933d 223-224,228
+fluss-rust/bindings/cpp/src/lib.rs
+  s_936e071f799642::t_f3f6fba00be038 74,78,260,1196,1200-1201
+fluss-rust/bindings/cpp/src/table.cpp
+  s_936e071f799642::t_7c8544fe216959 2328-2329,2335-2336,2375-2379,2405-2406
+fluss-rust/bindings/cpp/src/types.rs
+  s_936e071f799642::t_9a319da46aa1f0 754,770-794
+fluss-rust/bindings/cpp/test/test_ffi_converter.cpp
+  s_936e071f799642::t_cbf46db90b90db 65-73,86-94
+fluss-rust/bindings/cpp/test/test_log_table.cpp
+  s_936e071f799642::t_7580495eab13af 562,1082
+fluss-rust/bindings/elixir/lib/fluss/admin.ex
+  s_936e071f799642::t_ce173c170753ed 20,22-30,35,46,54-63,95-107,109-113,115,122-123,137-149,151,172-173,187-200,202-206,208,212-225,227,233-234,250-252,269-271,288-290,303-422
+fluss-rust/bindings/elixir/lib/fluss/config.ex
+  s_936e071f799642::t_aa40722e9092fe 45,66,83,104,156-160,251-255
+fluss-rust/bindings/elixir/lib/fluss/native.ex
+  s_936e071f799642::t_4284d21b3f4fa8 34,39,46,49,63-71
+fluss-rust/bindings/elixir/lib/fluss/partition_info.ex
+  s_936e071f799642::t_6f7314eb845c93 1-34
+fluss-rust/bindings/elixir/mix.exs
+  s_936e071f799642::t_12383e0671fa38 93
+fluss-rust/bindings/elixir/native/fluss_nif/src/admin.rs
+  s_936e071f799642::t_64b0cdb8f5c830 24-27,29,166-199,231-232,237-241,263,268,296,302,313,317-320,363-442
+fluss-rust/bindings/elixir/native/fluss_nif/src/config.rs
+  s_936e071f799642::t_5faa20544c172b 41,62,75,129-131,186-259
+fluss-rust/bindings/elixir/test/config_test.exs
+  s_936e071f799642::t_1f668f41afb87c 82-105,257-264
+fluss-rust/bindings/elixir/test/integration/admin_test.exs
+  s_936e071f799642::t_30501fb7bb6f42 61,76,86,99-100,104,115-171,173-198,213,223,225-226,245-246,262-263,285-289,310-314,336-340,389-393,427-431,458-462,488-492,520-524,559-563,581-585,606-610,617-760
+fluss-rust/bindings/elixir/test/integration/kv_table_test.exs
+  s_936e071f799642::t_5cc346818d2757 451,525,552
+fluss-rust/bindings/elixir/test/integration/log_table_test.exs
+  s_936e071f799642::t_5d0f69829332bc 34,78,121,182,227,270,318,352,357,369,387,407,443,580,629
+fluss-rust/bindings/elixir/test/integration/lookup_test.exs
+  s_936e071f799642::t_991bf92b3a57e0 157,169,176,417,436
+fluss-rust/bindings/python/fluss/__init__.pyi
+  s_936e071f799642::t_0e489ae1a2fad1 113-120,201-204,217-220,1526-1528
+fluss-rust/bindings/python/src/config.rs
+  s_936e071f799642::t_71f53c126f3519 111-113,198-208,392-403,446-457
+fluss-rust/bindings/python/src/lib.rs
+  s_936e071f799642::t_4a218f75131c34 145
+fluss-rust/bindings/python/src/table.rs
+  s_936e071f799642::t_2cc4dd771fe271 132-134,152,157,171,177,3055-3078
+fluss-rust/bindings/python/test/test_batch_scanner.py
+  s_936e071f799642::t_028779fb4679a8 61
+fluss-rust/bindings/python/test/test_config.py
+  s_936e071f799642::t_cab6e4f75dca8a 23-34,59-70
+fluss-rust/bindings/python/test/test_log_table.py
+  s_936e071f799642::t_0e92255140c6f0 415
+fluss-rust/crates/fluss-test-cluster/src/lib.rs
+  s_936e071f799642::t_0d94d0b0d4f97a 108-111,191
+fluss-rust/crates/fluss/src/client/connection.rs
+  s_936e071f799642::t_5c1c758793a04c 146-150
+fluss-rust/crates/fluss/src/client/lookup/lookup_queue.rs
+  s_936e071f799642::t_7cf2bc36c9a08e 92-99,119,122-123,173-220,222,224,226-230,232-249
+fluss-rust/crates/fluss/src/client/metadata.rs
+  s_936e071f799642::t_e65844a713a1d7 286-309,901-911
+fluss-rust/crates/fluss/src/client/table/log_fetch_buffer.rs
+  s_936e071f799642::t_91f9ce2a78d116 75-76,662,681,1044,1153,1156-1159,1284,1291-1294,1296,1305,1342,1355-1356,1516-1717,1783
+fluss-rust/crates/fluss/src/client/table/read_context_resolver.rs
+  s_936e071f799642::t_57c8fdd683ea8a 25-26,114,117-118,140,158,172-175,236-237,262-280
+fluss-rust/crates/fluss/src/client/table/reader.rs
+  s_936e071f799642::t_392ac66da311cb 984,989,1366,1370-1375,1384-1385
+fluss-rust/crates/fluss/src/client/table/remote_log.rs
+  s_936e071f799642::t_8ffd639c3f0d75 18,46,339-374,378,868,969-973,1060-1244
+fluss-rust/crates/fluss/src/client/table/scanner.rs
+  s_936e071f799642::t_b690fcda0fe6b3 28-30,1453,1458,2355,2738-2889
+fluss-rust/crates/fluss/src/client/write/accumulator.rs
+  s_936e071f799642::t_439ff16b8a1512 28-30,37,462-468,664-669,671-673,679,684,694-696,1043,1046-1052,1071-1085,1115-1119,1135,1371-1469,1471-1472,1478,1498,1503,1533-1584,3568-3610,3784-3900
+fluss-rust/crates/fluss/src/client/write/batch.rs
+  s_936e071f799642::t_c4c51e7fdf51ed 25,42-43,67,264-271
+fluss-rust/crates/fluss/src/client/write/sender.rs
+  s_936e071f799642::t_f0a2b42f6c18c7 18,24,26-27,38,57-66,71-141,156-157,187,191-195,292,296,298-301,307,323-327,330-333,337,349-354,357-393,395-442,445-457,459-474,476-492,494-500,502-582,597,604-619,621,637,642,649,654,658-664,667-695,697-698,703,705,708,714-716,719-720,724-737,740,792,797-798,802-832,834-835,837,841-842,960-961,1131,1230-1239,1380-1382,1398-1399,1403,1405-1410,1413-1414,1416-1419,1425,1428-1437,1457-1459,1461,1463-1464,1476-1477,1479,1481-1486,1495-1498,1504-1508,1515-1523,1544-1562,1564-1568,1576,1582-1583,1669-1671,1673,1677-1678,1681-1685,1692-1694,2555-2587,2589-2591,2593,2597-2636,3521-3906
+fluss-rust/crates/fluss/src/client/write/sender/tests/partition_creation.rs
+  s_936e071f799642::t_49b85380efc515 1-1027
+fluss-rust/crates/fluss/src/client/write/writer_client.rs
+  s_936e071f799642::t_32d72f40f93709 20,57-59,78,89-93,332,335-343,348,383
+fluss-rust/crates/fluss/src/cluster/cluster.rs
+  s_936e071f799642::t_1e1b79a4be33a4 401-408,991,1061,1186,1250-1285
+fluss-rust/crates/fluss/src/config.rs
+  s_936e071f799642::t_3c99dcd8135e1b 28,119-128,144-148,277-280,285,355-356,360,635-649
+fluss-rust/crates/fluss/src/metadata/partition.rs
+  s_936e071f799642::t_c09de99a94145e 126-144,423-435
+fluss-rust/crates/fluss/src/proto/fluss.rs
+  s_936e071f799642::t_7af7953fd19e98 148-176,316-329,1263-1277,1307,1320-1321
+fluss-rust/crates/fluss/src/record/mod.rs
+  s_936e071f799642::t_bd0e2326c7700e 183-186,203-204,214,225-238,370,373-374,376-377
+fluss-rust/crates/fluss/src/rpc/convert.rs
+  s_936e071f799642::t_877037de0d924f 80,93
+fluss-rust/crates/fluss/src/rpc/server_connection.rs
+  s_936e071f799642::t_23cc94f74e3191 42,50,553-569,596,612-666,687,695,790,799,805-806,819,823,943-944,1024-1135,1138-1140,1184-1186,1227-1229,1280-1282
+fluss-rust/crates/fluss/src/test_utils.rs
+  s_936e071f799642::t_dfb6022f48819e 97-102,110-112,114-131,133,144
+fluss-rust/crates/fluss/src/util/partition.rs
+  s_936e071f799642::t_e4b0d77703dc4e 132-144,492-522
+fluss-rust/crates/fluss/tests/integration/batch_scanner.rs
+  s_936e071f799642::t_d22ff34c16a172 90
+fluss-rust/crates/fluss/tests/integration/kv_table.rs
+  s_936e071f799642::t_83112faa935289 25,27-29,38,2232-2343
+fluss-rust/crates/fluss/tests/integration/log_table.rs
+  s_936e071f799642::t_5d806b99a9a479 26-27,36-37,39,1793-1795,1808-1810,1823-1921,4114-4256
+fluss-rust/crates/fluss/tests/integration/utils.rs
+  s_936e071f799642::t_5395a4609df9a8 93-96
+fluss-rust/website/docs/index.md
+  s_936e071f799642::t_e440316e815f92 28
+fluss-rust/website/docs/user-guide/cpp/api-reference.md
+  s_936e071f799642::t_ac565144476277 32,36,923,929-933
+fluss-rust/website/docs/user-guide/cpp/error-handling.md
+  s_936e071f799642::t_c3d2b50829127b 181,190-194,238
+fluss-rust/website/docs/user-guide/cpp/example/partitioned-tables.md
+  s_936e071f799642::t_94a5d41844ccc8 32-40,144,150
+fluss-rust/website/docs/user-guide/python/api-reference.md
+  s_936e071f799642::t_c37e9bcebf3e57 23,27,285,291-295
+fluss-rust/website/docs/user-guide/python/error-handling.md
+  s_936e071f799642::t_96c26b601e1927 129
+fluss-rust/website/docs/user-guide/python/example/partitioned-tables.md
+  s_936e071f799642::t_5522d94bd0f5a1 6-14,44,83
+fluss-rust/website/docs/user-guide/rust/api-reference.md
+  s_936e071f799642::t_a52a9fcca6845f 22,26,311,318-323
+fluss-rust/website/docs/user-guide/rust/example/partitioned-tables.md
+  s_936e071f799642::t_6f869e09075d1c 34-42,50,173,181
+fluss-server/src/main/java/org/apache/fluss/server/RpcServiceBase.java
+  s_936e071f799642::t_c11747ccace8cf 754-763,773-774,847-850
+fluss-server/src/main/java/org/apache/fluss/server/coordinator/CoordinatorEventProcessor.java
+  s_936e071f799642::t_00135df8d220fa 1276-1277,1280-1284,1712,1730-1731,1740-1749,1777-1779,1805,1857-1858,1943-1972,1974,1989-1991,2068,2102,2105,2108-2113,2117,2125-2126,2136,2139
+fluss-server/src/main/java/org/apache/fluss/server/coordinator/CoordinatorRequestBatch.java
+  s_936e071f799642::t_bbdc37a79f400c 463-465,468,511-513
+fluss-server/src/main/java/org/apache/fluss/server/coordinator/CoordinatorService.java
+  s_936e071f799642::t_17d2e67b6a6e5e 27,97-98,103-104,132,138,140,193,217,226,238,268-277,505,507,525-596,601,622-623,629,657,665,667-789,1009,1039-1042,1044,1850-1872,1976-2041,2073-2076,2094-2100,2105,2116-2131,2134,2166-2170
+fluss-server/src/main/java/org/apache/fluss/server/coordinator/MetadataManager.java
+  s_936e071f799642::t_f6afb70ed3ef3b 62,866,951,955,959-963,968,1030-1044
+fluss-server/src/main/java/org/apache/fluss/server/coordinator/channel/ControlRequestSendThread.java
+  s_936e071f799642::t_b798cf99fec9ec 104-106
+fluss-server/src/main/java/org/apache/fluss/server/coordinator/event/CoordinatorEventManager.java
+  s_936e071f799642::t_47cfdad3df00d6 96-97
+fluss-server/src/main/java/org/apache/fluss/server/coordinator/event/NotifyLeaderAndIsrResponseReceivedEvent.java
+  s_936e071f799642::t_1bf3cb85215c0c 20,25,35-37,40-41,44,54-58
+fluss-server/src/main/java/org/apache/fluss/server/coordinator/lease/KvSnapshotLeaseMetadataManager.java
+  s_936e071f799642::t_96d3e5d3c24e28 31,37,53-56,210-212,214,220-236
+fluss-server/src/main/java/org/apache/fluss/server/coordinator/rebalance/RebalanceManager.java
+  s_936e071f799642::t_8117e4a53ad250 112-118,255,293,385,438-458,501
+fluss-server/src/main/java/org/apache/fluss/server/kv/KvManager.java
+  s_936e071f799642::t_6e7182f3b3cb9d 41,147-148,589,625-635,763
+fluss-server/src/main/java/org/apache/fluss/server/kv/KvTablet.java
+  s_936e071f799642::t_9ca272df5064b6 54,324,350,374,422,448,495-496,577,592-593,609-611
+fluss-server/src/main/java/org/apache/fluss/server/kv/KvWriteProcessor.java
+  s_936e071f799642::t_6459306a16be49 576-577
+fluss-server/src/main/java/org/apache/fluss/server/kv/rocksdb/RocksDBResourceContainer.java
+  s_936e071f799642::t_551ad29ef18ec5 60,219-222,235-244
+fluss-server/src/main/java/org/apache/fluss/server/kv/rocksdb/RocksDBStatistics.java
+  s_936e071f799642::t_6514db145ef12c 40,77-94,462
+fluss-server/src/main/java/org/apache/fluss/server/kv/rocksdb/RocksDBStatisticsRegistry.java
+  s_936e071f799642::t_67cd6a4eafb9f4 1-83
+fluss-server/src/main/java/org/apache/fluss/server/kv/rowmerger/aggregate/factory/FieldCollectAggFactory.java
+  s_936e071f799642::t_65447cb948a46c 1-53
+fluss-server/src/main/java/org/apache/fluss/server/kv/rowmerger/aggregate/factory/FieldMergeMapAggFactory.java
+  s_936e071f799642::t_c3c782bf32d100 1-50
+fluss-server/src/main/java/org/apache/fluss/server/kv/rowmerger/aggregate/functions/FieldCollectAgg.java
+  s_936e071f799642::t_7c47cdab334c3a 1-130
+fluss-server/src/main/java/org/apache/fluss/server/kv/rowmerger/aggregate/functions/FieldLastNAgg.java
+  s_936e071f799642::t_a5ad82d7d60e8a 21,24,26-28,38-39,52-54,73-75,86-97
+fluss-server/src/main/java/org/apache/fluss/server/kv/rowmerger/aggregate/functions/FieldMergeMapAgg.java
+  s_936e071f799642::t_715bf8e6b01281 1-117
+fluss-server/src/main/java/org/apache/fluss/server/kv/wal/ArrowWalBuilder.java
+  s_936e071f799642::t_3d97c70149c287 38-43,48-49
+fluss-server/src/main/java/org/apache/fluss/server/metadata/CoordinatorMetadataCache.java
+  s_936e071f799642::t_1395955fa0ef6b 78-102
+fluss-server/src/main/java/org/apache/fluss/server/metadata/MetadataView.java
+  s_936e071f799642::t_cc23cc02a3e134 1-120
+fluss-server/src/main/java/org/apache/fluss/server/metadata/MetadataViewProvider.java
+  s_936e071f799642::t_3b8bbf73f600d3 1-26
+fluss-server/src/main/java/org/apache/fluss/server/metadata/ServerTablePropertyCache.java
+  s_936e071f799642::t_9a76f5f8513e1d 1-85
+fluss-server/src/main/java/org/apache/fluss/server/metadata/SystemTables.java
+  s_936e071f799642::t_573cdbab7b2fbe 1-40
+fluss-server/src/main/java/org/apache/fluss/server/metadata/TabletServerMetadataCache.java
+  s_936e071f799642::t_e58da8d2e4567d 38,49,63-65,67,74-76,79,84-100,133-137,147,169-182,246,262,264,266,268-269,281,284,286,290,307-323,333,335,337,356,367-376,380,391-392,402-403,405-406,417-433,472-479,487-488,502-504,508,519-520,569-570,585,596
+fluss-server/src/main/java/org/apache/fluss/server/metadata/TabletServerMetadataProvider.java
+  s_936e071f799642::t_e4f30aa85c5565 86,89
+fluss-server/src/main/java/org/apache/fluss/server/metrics/group/CoordinatorEventMetricGroup.java
+  s_936e071f799642::t_c364ca8239cb0a 54-55
+fluss-server/src/main/java/org/apache/fluss/server/metrics/group/TableMetricGroup.java
+  s_936e071f799642::t_d306258b23b446 25,36-39,42,44,47-48,374-398,404-406,411-419,441-444,447,450,453,456,459,732-733
+fluss-server/src/main/java/org/apache/fluss/server/metrics/group/TabletServerMetricGroup.java
+  s_936e071f799642::t_e761dc22b4afc5 127-129,135-137
+fluss-server/src/main/java/org/apache/fluss/server/replica/ReplicaManager.java
+  s_936e071f799642::t_4129fb29a04a99 43,131,407-416,724-725,728,2241-2257
+fluss-server/src/main/java/org/apache/fluss/server/tablet/TabletServer.java
+  s_936e071f799642::t_17edaf6959783b 54,185-187,318-319,334-335
+fluss-server/src/main/java/org/apache/fluss/server/tablet/TabletService.java
+  s_936e071f799642::t_1d980abee30f1f 20,85,98,127-128,133-134,192-193,203-204,219-220,238-257,656-662,811-835
+fluss-server/src/main/java/org/apache/fluss/server/tablet/consumer/group/ConsumerOffsetTableConfig.java
+  s_936e071f799642::t_5aa61f2eda1bc9 29,45-47
+fluss-server/src/main/java/org/apache/fluss/server/tablet/consumer/group/ConsumerOffsetTableManager.java
+  s_936e071f799642::t_ad9baa6df550a2 1-292
+fluss-server/src/main/java/org/apache/fluss/server/tablet/consumer/group/GroupManager.java
+  s_936e071f799642::t_2be7ebdad8b33f 1-57
+fluss-server/src/main/java/org/apache/fluss/server/utils/ServerRpcMessageUtils.java
+  s_936e071f799642::t_33aa5c946c9d97 75,225,305-338
+fluss-server/src/main/java/org/apache/fluss/server/utils/TableDescriptorValidation.java
+  s_936e071f799642::t_bebb02b3dfdc19 179,183,259,261,466-469
+fluss-server/src/main/java/org/apache/fluss/server/zk/ZooKeeperClient.java
+  s_936e071f799642::t_a42f11905f89c3 806-808,823-824
+fluss-server/src/main/resources/META-INF/services/org.apache.fluss.server.kv.rowmerger.aggregate.factory.FieldAggregatorFactory
+  s_936e071f799642::t_13c04bc527ce12 34-35
+fluss-server/src/test/java/org/apache/fluss/server/coordinator/AlterBucketNumTest.java
+  s_936e071f799642::t_f6b08facc567cb 238,240-245,247-248,251-252,254-255
+fluss-server/src/test/java/org/apache/fluss/server/coordinator/CoordinatorEventProcessorAdjustIsrTest.java
+  s_936e071f799642::t_4daa56f93a6e07 1-513
+fluss-server/src/test/java/org/apache/fluss/server/coordinator/CoordinatorEventProcessorTest.java
+  s_936e071f799642::t_f3f4918d2d8c83 63,87,100-101,1410-1411,1457-1458,1516-1517,1578-1579,2099-2444,2565-2566,2569-2570,2573-2574,3153-3161,3248-3263,3270,3287-3296
+fluss-server/src/test/java/org/apache/fluss/server/coordinator/TabletServerLoadTest.java
+  s_936e071f799642::t_7b204e69fc408f 1-292
+fluss-server/src/test/java/org/apache/fluss/server/coordinator/TestCoordinatorGateway.java
+  s_936e071f799642::t_5368cc90274ec9 57-58,69-70,198-203,522-527
+fluss-server/src/test/java/org/apache/fluss/server/coordinator/channel/ControlRequestSendThreadTest.java
+  s_936e071f799642::t_da55736af44a0a 493-494,497
+fluss-server/src/test/java/org/apache/fluss/server/coordinator/lease/KvSnapshotLeaseMetadataManagerTest.java
+  s_936e071f799642::t_c8ed99a60542ef 22,79,255-295
+fluss-server/src/test/java/org/apache/fluss/server/kv/KvManagerTest.java
+  s_936e071f799642::t_eb6cdf33ee9655 612-627
+fluss-server/src/test/java/org/apache/fluss/server/kv/RemoteLogFetcherTest.java
+  s_936e071f799642::t_91f08bdeb9ff56 50,316-317
+fluss-server/src/test/java/org/apache/fluss/server/kv/rocksdb/RocksDBResourceContainerTest.java
+  s_936e071f799642::t_d4af0926c9b62f 23,44,55,68-87
+fluss-server/src/test/java/org/apache/fluss/server/kv/rocksdb/RocksDBStatisticsRegistryTest.java
+  s_936e071f799642::t_f08d780409d991 1-95
+fluss-server/src/test/java/org/apache/fluss/server/kv/rowmerger/aggregate/FieldCollectionAggregatorTest.java
+  s_936e071f799642::t_592c2dde184a34 1-451
+fluss-server/src/test/java/org/apache/fluss/server/kv/rowmerger/aggregate/functions/FieldLastNAggTest.java
+  s_936e071f799642::t_bd6d18335404ad 23-24,28-30,36-37,49,154-199,212-225
+fluss-server/src/test/java/org/apache/fluss/server/kv/wal/ArrowWalBuilderTest.java
+  s_936e071f799642::t_1ca36344c41bf1 164-165
+fluss-server/src/test/java/org/apache/fluss/server/lakehouse/TestingPaimonStoragePlugin.java
+  s_936e071f799642::t_9c27a76de968f3 65-77,80-90
+fluss-server/src/test/java/org/apache/fluss/server/metadata/CoordinatorMetadataCacheTest.java
+  s_936e071f799642::t_a82a2c19a5e955 21,30,103-133
+fluss-server/src/test/java/org/apache/fluss/server/metadata/SystemTablesTest.java
+  s_936e071f799642::t_38bc999eca7d7d 1-40
+fluss-server/src/test/java/org/apache/fluss/server/metadata/TabletServerMetadataCacheTest.java
+  s_936e071f799642::t_8cf8212593f74c 23,28,44-47,60,190,219-227,522-539,678-855
+fluss-server/src/test/java/org/apache/fluss/server/metrics/group/TableMetricGroupTest.java
+  s_936e071f799642::t_25b62a201b736d 20-21,24,31-36,38-40,42,45-48,59-227
+fluss-server/src/test/java/org/apache/fluss/server/replica/delay/DelayedFetchLogTest.java
+  s_936e071f799642::t_706f329d3e6b25 28,35,37,41,90,100,111-290,334-382,398-421
+fluss-server/src/test/java/org/apache/fluss/server/tablet/TabletServiceITCase.java
+  s_936e071f799642::t_e82c16e62dcc18 20,22-24,46-47,74-75,79,83,107,154-213
+fluss-server/src/test/java/org/apache/fluss/server/tablet/consumer/group/ConsumerOffsetTableITCase.java
+  s_936e071f799642::t_b47604bc7b0062 1-184
+fluss-server/src/test/java/org/apache/fluss/server/tablet/consumer/group/ConsumerOffsetTableManagerTest.java
+  s_936e071f799642::t_ad5ddf5c2b0354 1-227
+fluss-server/src/test/java/org/apache/fluss/server/tablet/consumer/group/GroupManagerTest.java
+  s_936e071f799642::t_5fa03bbbd20579 1-48
+fluss-server/src/test/java/org/apache/fluss/server/testutils/FlussClusterExtension.java
+  s_936e071f799642::t_753c1c3ae5a37f 269-273,278,321-330,338
+fluss-server/src/test/java/org/apache/fluss/server/testutils/TestingServerRestartUtils.java
+  s_936e071f799642::t_86aec1927fbbc1 1-229
+fluss-server/src/test/java/org/apache/fluss/server/utils/TableDescriptorValidationTest.java
+  s_936e071f799642::t_2ad0da5e10f3ce 144-163,267-279,416-417,424,453-468
+fluss-server/src/test/java/org/apache/fluss/server/zk/ZooKeeperClientTest.java
+  s_936e071f799642::t_8c94eeceff2d87 482-496
+fluss-spark/fluss-spark-common/src/main/scala/org/apache/fluss/spark/read/lake/FlussLakeUtils.scala
+  s_936e071f799642::t_3adcff97db0ffa 56-58
+fluss-spark/fluss-spark-common/src/main/scala/org/apache/fluss/spark/tiering/SparkTieringJobRunner.scala
+  s_936e071f799642::t_4255b9fa8fff4a 1-400
+fluss-spark/fluss-spark-common/src/main/scala/org/apache/fluss/spark/tiering/SparkTieringOptions.scala
+  s_936e071f799642::t_2e150832548c53 1-58
+fluss-spark/fluss-spark-common/src/main/scala/org/apache/fluss/spark/tiering/TieringCoordinator.scala
+  s_936e071f799642::t_14d3fa807d5cae 1-266
+fluss-spark/fluss-spark-common/src/main/scala/org/apache/fluss/spark/tiering/TieringTask.scala
+  s_936e071f799642::t_98053606659a0b 1-231
+fluss-spark/fluss-spark-common/src/main/scala/org/apache/fluss/spark/tiering/TieringTaskResult.scala
+  s_936e071f799642::t_f50cd7733b2427 1-93
+fluss-spark/fluss-spark-tiering/pom.xml
+  s_936e071f799642::t_923e90e527d5cf 1-101
+fluss-spark/fluss-spark-tiering/src/main/scala/org/apache/fluss/spark/tiering/SparkLakeTiering.scala
+  s_936e071f799642::t_41e42878ffbecc 1-145
+fluss-spark/fluss-spark-ut/pom.xml
+  s_936e071f799642::t_d963bad6942be6 41-47
+fluss-spark/fluss-spark-ut/src/test/scala/org/apache/fluss/spark/lake/SparkLakeTableReadTestBase.scala
+  s_936e071f799642::t_efc56f1b249191 20,25,31,55,58-73,75-91,93-99,102,107-108,112-117,126-128,130
+fluss-spark/fluss-spark-ut/src/test/scala/org/apache/fluss/spark/tiering/SerializedTaskResultTest.scala
+  s_936e071f799642::t_cb3dbbb69a8c15 1-83
+fluss-spark/fluss-spark-ut/src/test/scala/org/apache/fluss/spark/tiering/SparkLakeTieringTest.scala
+  s_936e071f799642::t_9626c130bbfe1a 1-47
+fluss-spark/fluss-spark-ut/src/test/scala/org/apache/fluss/spark/tiering/SparkTieringJobRunnerTest.scala
+  s_936e071f799642::t_89fbfc2cbf6c8d 1-228
+fluss-spark/fluss-spark-ut/src/test/scala/org/apache/fluss/spark/tiering/TieringCoordinatorTest.scala
+  s_936e071f799642::t_17543e9373ff74 1-113
+fluss-spark/fluss-spark-ut/src/test/scala/org/apache/fluss/spark/tiering/TieringTaskTest.scala
+  s_936e071f799642::t_fd7a2ee87929eb 1-293
+fluss-spark/pom.xml
+  s_936e071f799642::t_09a36dcddf5deb 43
+fluss-test-coverage/pom.xml
+  s_936e071f799642::t_51b5b1f9164d98 498-499
+fluss-test-utils/pom.xml
+  s_936e071f799642::t_6a92d250943d2f 30
+fluss-trino/pom.xml
+  s_936e071f799642::t_7712433245db3d 29
+helm/templates/_names.tpl
+  s_936e071f799642::t_a2a5ec9fc9882d 1-139
+helm/templates/_validate.tpl
+  s_936e071f799642::t_d3b18673bdd702 44
+helm/templates/configmap.yaml
+  s_936e071f799642::t_36422b65b6b0ea 22
+helm/templates/pdb-coordinator.yaml
+  s_936e071f799642::t_b5b9dc1adeca19 23
+helm/templates/pdb-tablet.yaml
+  s_936e071f799642::t_99dc77350af804 23
+helm/templates/sts-coordinator.yaml
+  s_936e071f799642::t_00cbcbdb4b8ef7 22,30,128,170
+helm/templates/sts-tablet.yaml
+  s_936e071f799642::t_f497b0145bc9ce 22,30,124,183
+helm/templates/svc-coordinator.yaml
+  s_936e071f799642::t_367432bdbdae3e 22,33
+helm/templates/svc-metrics-coordinator.yaml
+  s_936e071f799642::t_d405ebe75695e1 25
+helm/templates/svc-metrics-tablet.yaml
+  s_936e071f799642::t_0040b6109b3dd6 25
+helm/templates/svc-tablet.yaml
+  s_936e071f799642::t_f4e6e08871209e 22,33
+helm/tests/naming_test.yaml
+  s_936e071f799642::t_b737c71d258714 1-359
+helm/tests/services_test.yaml
+  s_936e071f799642::t_685d38831423df 1-54
+helm/values.yaml
+  s_936e071f799642::t_b151050a576416 30-35,40-45,102,149
+tools/maven/suppressions.xml
+  s_936e071f799642::t_f59a3f4ba81dbf 33
+website/community/fluss-team.md
+  s_936e071f799642::t_e81ca82be73d3f 33,35-36
+website/docs/apis/cpp/api-reference.md
+  s_936e071f799642::t_0527f96ef397dc 29,33,484,490-494
+website/docs/apis/cpp/error-handling.md
+  s_936e071f799642::t_e9d405975b7145 181,190-194,238
+website/docs/apis/cpp/example/partitioned-tables.md
+  s_936e071f799642::t_aa9336b901359f 32-40,144,150
+website/docs/apis/index.md
+  s_936e071f799642::t_473836c213f8bc 27
+website/docs/apis/java/index.md
+  s_936e071f799642::t_781969c6184fb4 147-171
+website/docs/apis/python/api-reference.md
+  s_936e071f799642::t_ee423d5462b244 22,26,331,337-341
+website/docs/apis/python/error-handling.md
+  s_936e071f799642::t_e4a8b7a4470cb5 129
+website/docs/apis/python/example/partitioned-tables.md
+  s_936e071f799642::t_8cfa99c6697f6f 6-14,44,83
+website/docs/apis/rust/api-reference.md
+  s_936e071f799642::t_a7a3998ef602f7 21,25,293,300-305
+website/docs/apis/rust/example/partitioned-tables.md
+  s_936e071f799642::t_4a6cb5558b3e3c 34-42,50,173,181
+website/docs/engine-flink/options.md
+  s_936e071f799642::t_4783b9ec975fbb 92-93,103
+website/docs/engine-flink/procedures.md
+  s_936e071f799642::t_66971ba4a873fb 517-551
+website/docs/install-deploy/deploying-with-helm.md
+  s_936e071f799642::t_57e9cff29f9f46 124-127,170,383,491,504,570-616,892-1088
+website/docs/kafka-compatibility.md
+  s_936e071f799642::t_a3f5818b070183 36-67
+website/docs/maintenance/configuration.md
+  s_936e071f799642::t_5b3d58d181aae5 134-135,138-140,188,218
+website/docs/maintenance/observability/metric-reporters.md
+  s_936e071f799642::t_6835ba1c203b81 47-61
+website/docs/maintenance/observability/monitor-metrics.md
+  s_936e071f799642::t_ae470c9f8e6bf4 15,1105,1107-1109,1125-1126,1130-1131,1135-1136,1155-1156,1412-1413,1437-1442
+website/docs/maintenance/operations/upgrade-notes-1.1.md
+  s_936e071f799642::t_5c54c2ecefba42 22-34
+website/docs/maintenance/tiered-storage/filesystems/gs.md
+  s_936e071f799642::t_1808c4ad9b5779 50-58,65,69-70,73-81
+website/docs/security/overview.md
+  s_936e071f799642::t_30dadb47dc5839 33-34
+website/docs/streaming-lakehouse/datalake-formats/iceberg.md
+  s_936e071f799642::t_493b2371aed362 226,262-282
+website/docs/streaming-lakehouse/datalake-formats/paimon.md
+  s_936e071f799642::t_3672a23f8f847c 103
+website/docs/table-design/merge-engines/aggregation.md
+  s_936e071f799642::t_db525e108fd5c6 596,599-604,1161-1272
+website/docs/table-design/virtual-tables.md
+  s_936e071f799642::t_b0108fef171cde 17,22-23,58-92
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "83c54bca7412b3de278af6e84d8b1acea595b3ff",
+  "prompts": {},
+  "sessions": {
+    "s_936e071f799642": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "33b3297f-0f0a-4979-8374-9cf3a013f4ca",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "caoanfu.1 <caoanfu.1@jd.com>"
+    }
+  }
+}
