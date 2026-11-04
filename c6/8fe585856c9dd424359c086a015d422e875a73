@@ -1,0 +1,16 @@
+website/docs/maintenance/observability/monitor-metrics.md
+  h_a98c50a6bef114 471-472,480-481
+fluss-server/src/test/java/org/apache/fluss/server/coordinator/rebalance/RebalanceManagerTest.java
+  h_a98c50a6bef114 30,73,101,150,551,615,640-641,645,673,684,766-795
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "c68fe585856c9dd424359c086a015d422e875a73",
+  "prompts": {},
+  "humans": {
+    "h_a98c50a6bef114": {
+      "author": "caoanfu.1 <caoanfu.1@jd.com>"
+    }
+  }
+}
