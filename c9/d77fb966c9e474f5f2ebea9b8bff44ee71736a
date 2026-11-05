@@ -1,0 +1,18 @@
+fluss-server/src/main/java/org/apache/fluss/server/metrics/ServerMetricUtils.java
+  h_a98c50a6bef114 78
+fluss-server/src/main/java/org/apache/fluss/server/metrics/group/CoordinatorMetricGroup.java
+  h_a98c50a6bef114 58-59,97-108,112-116
+fluss-server/src/test/java/org/apache/fluss/server/coordinator/rebalance/RebalanceManagerTest.java
+  h_a98c50a6bef114 158,687,764-767
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "c9d77fb966c9e474f5f2ebea9b8bff44ee71736a",
+  "prompts": {},
+  "humans": {
+    "h_a98c50a6bef114": {
+      "author": "caoanfu.1 <caoanfu.1@jd.com>"
+    }
+  }
+}
